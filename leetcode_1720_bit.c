@@ -38,6 +38,8 @@ int* decode(int* encoded, int encodedSize, int first, int* returnSize){
 
 int main(void)
 {
-	int arr[3] = 
+	int arr[3] = {1,2,3};
+	int returnSize ;
+	int *arr = decode(arr,3,1,&returnSize);
 
 }
